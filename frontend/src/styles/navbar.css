@@ -1,0 +1,99 @@
+/* Navbar container */
+.navbar {
+  height: 70px;
+  background: linear-gradient(135deg, #0f1225, #1b1f3b);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo */
+.navbar-logo {
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Links container */
+.navbar-links {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+/* Normal links */
+.nav-link {
+  color: #dcdcff;
+  text-decoration: none;
+  font-size: 15px;
+  padding-bottom: 5px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.nav-link:hover {
+  color: #ffffff;
+}
+
+/* Active link */
+.active {
+  color: #5a5afc;
+  border-bottom: 2px solid #5a5afc;
+}
+
+/* Login button style */
+.login-btn {
+  padding: 8px 18px;
+  border: 1px solid #5a5afc;
+  border-radius: 20px;
+}
+
+.login-btn:hover {
+  background: #5a5afc;
+  color: white;
+}
+
+.logout-btn {
+  background: #dc2626;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background: #b91c1c;
+}
+.navbar-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  background: #4f46e5;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.logout-btn {
+  background: #dc2626;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+

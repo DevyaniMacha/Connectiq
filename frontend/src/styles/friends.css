@@ -1,0 +1,17 @@
+.friends-container {
+  max-width: 400px;
+  margin: 30px auto;
+}
+
+.request-card {
+  display: flex;
+  justify-content: space-between;
+  background: #f1f5f9;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+button {
+  margin-left: 5px;
+}
